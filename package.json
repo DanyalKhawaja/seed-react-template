@@ -45,5 +45,12 @@
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
+  },
+  "lint-staged":{
+    "**/*.{js.jsx,ts,tsx}":[
+      "yarn eslint",
+      "yarn prettier --write",
+      "yarn test --watchAll=false --findRelatedTests --bail"
+    ]
   }
 }
