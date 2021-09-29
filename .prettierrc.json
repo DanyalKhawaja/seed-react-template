@@ -2,12 +2,13 @@
     "overrides": [
       {
         "options": {
-          "printWidth": 80,
+          "printWidth": 20,
           "tabWidth": 4,
           "useTabs": false,
           "singleQuote": false,
           "bracketSpacing": false,
-          "explicitTypes": "always"
+          "explicitTypes": "always",
+          "htmlWhitespaceSensitivity": "strict"
         }
       }
     ]
