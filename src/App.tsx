@@ -11,8 +11,9 @@ function App() {
                 rel="noopener noreferrer"
             >
                 <SeedLogo className="seed-logo" />
-                <h2>We build software for the future of finance </h2>{" "}
+                <h2>We build software for the future of finance </h2>
             </a>
+            <h3>React Typescript Boilerplate</h3>
         </div>
     );
 }
