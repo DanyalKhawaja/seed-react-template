@@ -10,6 +10,9 @@
       "plugin:@typescript-eslint/recommended"
     ],
     "rules": {
-        "no-console": 0 // set it to 2 when in prod! 
+        "no-console": 1 // set it to 2 when in prod! 
     }
   }
+
+
+  
